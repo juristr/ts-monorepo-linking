@@ -7,10 +7,6 @@
     "composite": true,
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "paths": {
-      "@ts-monorepo-linking/lib-a": ["packages/lib-a/src/index.ts"]
-    }
+    "sourceMap": true
   }
 }
