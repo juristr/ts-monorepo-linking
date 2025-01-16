@@ -1,8 +1,9 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "../../dist",
-    "declaration": true
+    "outDir": "../../dist/apps/myapp",
+    "rootDir": "src"
   },
+  "references": [{ "path": "../../packages/lib-a" }],
   "include": ["src/**/*"]
 }

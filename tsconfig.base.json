@@ -6,6 +6,10 @@
     "moduleResolution": "NodeNext",
     "baseUrl": ".",
     "rootDir": ".",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
     "paths": {
       "@ts-monorepo-linking/lib-a": ["packages/lib-a/src/index.ts"]
     }
