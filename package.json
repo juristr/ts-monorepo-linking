@@ -8,7 +8,6 @@
   },
   "scripts": {
     "dev": "tsx --tsconfig tsconfig.base.json apps/myapp/src/index.ts",
-    "start": "node dist/apps/myapp/src/index.js",
     "build": "tsc -p apps/myapp/tsconfig.json",
     "typecheck": "tsc -p apps/myapp/tsconfig.json --noEmit"
   }
