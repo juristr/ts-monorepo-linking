@@ -1,0 +1,69 @@
+# Dependencies
+node_modules
+.pnpm-store/
+
+# Build outputs
+dist
+build
+out
+.next
+*.tsbuildinfo
+
+# Testing
+coverage
+.nyc_output
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cache directories
+.cache
+.mf
+.rollup.cache
+tsconfig.tsbuildinfo
+.eslintcache
+
+# Temporary files
+*.log
+*.swp
+*.swo
+.temp
+.tmp
+.turbo
+
+# Production bundles
+*.bundle.js
+*.bundle.css
+*.chunk.js
+
+# Storybook
+storybook-static
+
+# Cypress
+cypress/videos
+cypress/screenshots
+
+# Misc
+.DS_Store
+*.pem
+.vercel
+.netlify 
