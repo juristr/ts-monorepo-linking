@@ -1,3 +1,3 @@
-import { greet } from "../../../packages/lib-a/src/index.js";
+import { greet } from "@ts-monorepo-linking/lib-a";
 
 console.log(greet("World"));

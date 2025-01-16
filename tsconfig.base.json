@@ -5,6 +5,9 @@
     "strict": true,
     "moduleResolution": "NodeNext",
     "baseUrl": ".",
-    "rootDir": "."
+    "rootDir": ".",
+    "paths": {
+      "@ts-monorepo-linking/lib-a": ["packages/lib-a/src/index.ts"]
+    }
   }
 }
