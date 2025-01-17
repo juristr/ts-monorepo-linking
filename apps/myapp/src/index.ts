@@ -1,3 +1,3 @@
-import { greet } from "../../../packages/lib-a/src/index.js";
+import { greet } from "../../../packages/lib-a/src/index";
 
 console.log(greet("World"));
