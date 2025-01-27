@@ -1,0 +1,67 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.3.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "@ts-monorepo-linking/lib-a": [
+        {
+          "file": "packages/lib-a/package.json",
+          "hash": "431050030862248412"
+        },
+        {
+          "file": "packages/lib-a/src/index.ts",
+          "hash": "1037872465269383268"
+        },
+        {
+          "file": "packages/lib-a/tsconfig.json",
+          "hash": "11103377577773486536"
+        }
+      ],
+      "@ts-monorepo-linking/myapp": [
+        {
+          "file": "apps/myapp/package.json",
+          "hash": "5156919435695884116",
+          "deps": [
+            "@ts-monorepo-linking/lib-a"
+          ]
+        },
+        {
+          "file": "apps/myapp/src/index.ts",
+          "hash": "17948241783092176630"
+        },
+        {
+          "file": "apps/myapp/tsconfig.json",
+          "hash": "4709166538695292074"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "16690718877538958933"
+      },
+      {
+        "file": "README.md",
+        "hash": "6066510985909957243"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "9126760016927328180"
+      },
+      {
+        "file": "package.json",
+        "hash": "10214695540555448401"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6093535822345733184"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "3041802698825988591"
+      }
+    ]
+  }
+}
