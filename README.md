@@ -2,7 +2,7 @@
 
 This repo contains examples of various strategies for linking packages in a TS monorepo. Each strategy is implemented in a separate branch.
 
-Read the full blog post here: [https://nx.dev/blog/linking-ts-in-monorepos](https://nx.dev/blog/linking-ts-in-monorepos)
+Read the full blog post here: [https://nx.dev/blog/managing-ts-packages-in-monorepos](https://nx.dev/blog/managing-ts-packages-in-monorepos)
 
 ## Available Strategies
 
